@@ -13,9 +13,10 @@ A simple command-line tool written in Python that checks whether a password appe
 
 ## How to Run
 
-1. Make sure `passwords.txt` exists in the **same folder** as `check.py`.
-2. Open a terminal in the project folder.
-3. Run the script:
+1. Download or clone this project.
+2. Make sure `passwords.txt` exists in the **same folder** as `check.py`.
+3. Open a terminal in the project folder.
+4. Run the script:
 
 ```bash
 python main.py
