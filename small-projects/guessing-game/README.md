@@ -3,6 +3,11 @@
 A command-line game where the player tries to guess a randomly
 generated number within a limited number of attempts.
 
+## Modules used in the code
+
+- random
+- sys
+
 ## Requirements
 
 - Python 3.x
@@ -18,11 +23,6 @@ generated number within a limited number of attempts.
 - Generate random number between 1 and 10
 - Input validation (rejects non-integers and out-of-range values)
 - Graceful handling of `Ctrl+C` (KeyboardInterrupt)
-
-## Modules used
-
-- random
-- sys
 
 ## How to Run
 

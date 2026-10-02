@@ -2,13 +2,13 @@
 
 A simple command-line **Rock-Paper-Scissors** game written in Python. Play against the AI — first to **10 points** wins!
 
----
+## Modules used in the code
 
-## 📋 Requirements
+- random
+
+## Requirements
 
 - Python 3.x
-
----
 
 ## How to Run
 
