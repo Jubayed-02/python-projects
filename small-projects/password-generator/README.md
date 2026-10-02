@@ -15,7 +15,7 @@ A simple, secure command-line password generator written in Python. Generate str
 
 1. Download or clone this project.
 2. Open a terminal in the project folder.
-3. Run the game:
+3. Run the script:
 
 ```bash
 python main.py
