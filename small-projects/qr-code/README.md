@@ -20,7 +20,7 @@ pip install "qrcode[pil]"
 
 1. Download or clone this project.
 2. Open a terminal in the project folder.
-3. Run the game:
+3. Run the code:
 
 ```bash
 python main.py
