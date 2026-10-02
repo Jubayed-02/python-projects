@@ -26,6 +26,10 @@ generated number within a limited number of attempts.
 
 ## How to Run
 
+1. Clone or download this project.
+2. Open a terminal in the project folder.
+3. Run the game:
+
 ```bash
 python main.py
 ```
