@@ -1,6 +1,6 @@
 # Password Generator X10XJ
 
-A simple, secure command-line password generator written in Python. Generate strong random passwords using Python's built-in `secrets` module — perfect for real-world use.
+A simple, secure command-line password generator written in Python. Generate strong random passwords using Python's built-in `secrets` module.
 
 ---
 
