@@ -58,8 +58,11 @@ if user_input in VALID_BASIC:
         result = x * y
         print(f"{database[user_input]}: {result}")
     else:
-        result = division(x, y)
-        print(f"{database[user_input]}: {result}")
+        try:
+            result = division(x, y)
+            print(f"{database[user_input]}: {result}")
+        except ZeroDivisionError:
+            print("Can't be divided by zero!")
 elif user_input in VALID_SPECIAL:
     number = int(input(f"Enter the number to {database[user_input]}: "))
     if user_input == "rt":
