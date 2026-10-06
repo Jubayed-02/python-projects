@@ -30,10 +30,10 @@ def square(a): return a ** 2
 
 
 database = {
-    "add": "addition",
-    "sub": "subtraction",
-    "mul": "multiplication",
-    "div": "division",
+    "add": "Addition",
+    "sub": "Subtraction",
+    "mul": "Multiplication",
+    "div": "Division",
     "sq": "square",
     "rt": "root"
 }
@@ -50,23 +50,23 @@ if user_input in VALID_BASIC:
     x, y = input_num()
     if user_input == "add":
         result = x + y
-        print(f"Addition: {result}")
+        print(f"{database[user_input]}: {result}")
     elif user_input == "sub":
         result = x - y
-        print(f"Subtraction: {result}")
+        print(f"{database[user_input]}: {result}")
     elif user_input == "mul":
         result = x * y
-        print(f"Multiplication: {result}")
+        print(f"{database[user_input]}: {result}")
     else:
         result = division(x, y)
-        print(f"Division: {result}")
+        print(f"{database[user_input]}: {result}")
 elif user_input in VALID_SPECIAL:
-    number = int(input(f"Enter the number to {user_input}: "))
+    number = int(input(f"Enter the number to {database[user_input]}: "))
     if user_input == "rt":
         result = root(number)
         print(f"The root of {number} is: {result}")
     else:
         result = square(number)
-        print(f"The square of {number} is: {result}")
+        print(f"The {database[user_input]} of {number} is: {result}")
 else:
     print("Invalid input!")
