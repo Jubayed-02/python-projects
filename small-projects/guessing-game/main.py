@@ -5,12 +5,8 @@ print("Welcome to the number guessing game!")
 player = input("What's your name? \n:").title()
 
 rules = f"""
-Rules:
-    1. You have to guess a number in the range of 1 to 10.
-    2. You have 3 chances to guess the right answer.
-    3. Invalid input (letters, symbols, numbers outside 1-10) 
-       still counts as one of your chances.
-Best of luck, {player}!
+Rules: No rules!!!
+     Go wild, {player}!
 """
 print(rules)
 
